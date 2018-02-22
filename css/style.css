@@ -1,0 +1,387 @@
+body h1,h2,h3,h4,p, a{
+  margin-top: 0px;
+  font-family: 'Poppins';
+}
+
+body p{
+  opacity: .7;
+}
+
+
+.nav-primary{
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.nav-primary .navbar-header a{
+  color: #aa1405;
+}
+
+.nav-primary .navbar-header a:hover{
+  color: #aa1405;
+  opacity: .8;
+}
+
+.nav-primary .navbar-collapse ul li a{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-primary .navbar-collapse ul li a:hover{
+  color: white;
+  opacity: .8;
+}
+
+.navscroll{
+  background-color: white;
+  /* border-color: white; */
+    border-bottom-color:#d0d4db;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #aa1405;
+}
+
+.navbar-inverse .navbar-brand:hover{
+  color: #aa1405;
+  opacity: .5;
+}
+
+.navscroll .navbar-collapse .navbar-nav li a{
+  color: #212529;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: .8;
+  text-transform: uppercase;
+}
+
+.navbar-collapse .navbar-nav li a:hover{
+  color: black;
+  opacity: .5;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: white;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: white;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: black;
+}
+
+header{
+  background: url(../img/bg-phone3.jpg) no-repeat center fixed;
+  background-size: cover;
+  /* background-color: #282828; */
+  /* height: 100vh; */
+  height: auto;
+  padding: 100px 0px;
+}
+
+header .text-desc{
+  text-align: left;
+  color: white;
+  padding: 80px 30px;
+}
+
+header .text-desc h1{
+  /* text-shadow: 1px 1px 40px #1d1d1d; */
+  font-size: 50px;
+  text-align: left;
+  /* margin-bottom: 80px; */
+  /* font-weight: 500; */
+  /* text-transform: uppercase; */
+  font-family: 'Poppins', sans-serif;
+}
+
+header hr{
+  border-color: #aa1405;
+  /* width: 40px;
+  border-width: 3px; */
+}
+
+header .text-desc p{
+  text-align: left;
+  /* text-shadow: 2px 2px 10px #1d1d1d; */
+  font-size: 25px;
+  color: white;
+  /* color: #6e1208; */
+  /* opacity: .6; */
+  margin-bottom: 30px;
+}
+
+header .text-desc a{
+  font-size: 14px;
+  /* text-transform: uppercase; */
+  border-radius: 300px;
+  padding: 15px 30px;
+  background-color: transparent;
+  border-color: white;
+  /* background-color: #aa1405; */
+  /* border-color: #aa1405; */
+  /* opacity: .8; */
+  /* text-shadow: 1px 1px 10px #1d1d1d; */
+  /* box-shadow: 1px 1px 1px grey; */
+
+}
+
+header .text-desc a:hover{
+  background-color: transparent;
+  border-color: white;
+  /* opacity: .8; */
+}
+
+header .img-desc{
+  text-align: center;
+}
+
+header .img-desc img{
+  width: 300px;
+  /* box-shadow: 10px 10px 15px grey; */
+}
+
+.sec1{
+  /* background-color: #f4f5f7; */
+  background-color: white;
+  /* background-color: #1d1d1d; */
+  height: auto;
+  padding: 70px 0px;
+}
+
+.sec1 .judul{
+  text-align: center;
+  margin-bottom:60px;
+}
+
+.sec1 hr{
+  border-color: #aa1405;
+  width: 40px;
+  border-width: 3px;
+}
+
+.sec1 h2, .sec1 h3{
+  color: black;
+}
+
+.sec1 p{
+  /* opacity: .4; */
+  color: black;
+}
+
+.sec1 .baris-desc{
+  margin-bottom: 70px;
+}
+
+.sec1 .img-desc{
+  text-align: center;
+}
+
+.sec1 .img-desc img:hover{
+  cursor: pointer;
+}
+
+.sec1 .text-desc{
+  text-align: justify;
+  padding: 40px 0px;
+  height: 400px;
+}
+
+.sec1 .text-desc .icon{
+  font-size: 120px;
+  /* width: 150px; */
+  text-align: center;
+  /* color: #636466; */
+  color: #aa1405;
+  /* color: #f46b2c; */
+  /* color: #bf3415; */
+}
+
+.sec1 .img-desc img{
+  width: 250px;
+  box-shadow: 0 4px 50px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+}
+
+.sec2{
+  height: auto;
+  text-align: center;
+  background: url(../img/bg-phone-edited.jpg) no-repeat center fixed;
+  background-size: cover;
+  padding: 70px 0px;
+}
+
+.sec2 h1{
+  color: white;
+}
+
+.sec2 p{
+  color: white;
+  /* opacity: .4; */
+  text-align: center;
+}
+
+.sec2 .text-desc{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.sec2 img{
+  height: 60px;
+}
+
+.sec3{
+  background-color: white;
+  /* background-color: #1d1d1d; */
+  height: auto;
+  padding: 70px 0px;
+  /* padding: 70px 0px; */
+  text-align: center;
+}
+
+.sec3 hr{
+  border-color: #aa1405;
+  width: 40px;
+  border-width: 3px;
+}
+
+.sec3 p{
+  margin-bottom: 40px;
+}
+
+.sec3 .text-desc-kiri{
+  text-align: right;
+  margin-left: 100px;
+}
+
+.sec3 .text-desc-kanan{
+  text-align: left;
+}
+
+.sec3 .text-desc-kiri, .sec3 .text-desc-kanan{
+  padding-top: 60px;
+}
+
+.sec3 .text-desc-1{
+  margin-bottom: 60px;
+}
+
+.sec3 .icon{
+  font-size: 80px;
+  color: #aa1405;
+}
+
+.sec3 img{
+  width: 300px;
+}
+
+.sec3 h4{
+  color: black;
+}
+
+.sec3 p{
+  color: black;
+  /* opacity: .4; */
+}
+
+footer{
+  height: 15vh;
+  background-color: white;
+  /* background-color: #1d1d1d; */
+  text-align: center;
+  padding: 30px;
+}
+
+footer p{
+  color: black;
+  font-size: 12px;
+  /* opacity: .6; */
+}
+
+footer ul{
+  margin-left:0px;
+  padding-left: 0px;
+}
+
+footer ul li{
+  display: inline;
+  margin-right: 15px;
+  margin-left: 8px;
+}
+
+footer ul li a {
+  color: black;
+  font-size: 12px;
+  opacity: .7;
+}
+
+footer ul li a:hover{
+  text-decoration: none;
+  color: black;
+  opacity: .4;
+}
+
+@media (max-width: 768px){
+  .nav-primary{
+    background-color: white;
+    border-bottom-color: #aa1405;
+  }
+  .nav-primary .navbar-header a{
+    color: #aa1405;
+  }
+  .navbar-inverse .navbar-toggle{
+    background-color: white;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    background-color: white;
+  }
+  .nav-primary .navbar-collapse ul li a{
+    color: black;
+  }
+  .nav-primary .navbar-collapse ul li a:hover{
+    color: black;
+  }
+  header{
+    height: auto;
+    padding: 60px 0px;
+  }
+  header .text-desc{
+    padding: 40px 30px;
+    text-align: center;
+  }
+  header .text-desc h1, header .text-desc p{
+    text-align: center;
+  }
+  .sec1 .baris-desc{
+    margin-bottom: 0px;
+  }
+  .sec1 .baris-desc .text-atas{
+    padding-bottom: 0px;
+  }
+  .sec1 .baris-desc .text-atas p{
+    margin-bottom: 0px;
+  }
+  .sec1 .text-bawah{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
+  }
+  .sec1 .baris-desc-bawah .img-desc{
+    padding-top: 40px;
+  }
+  .sec3{
+    padding-bottom: 20px;
+  }
+  .sec3 .text-desc-kiri{
+    padding-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .sec3 .text-desc-kanan{
+    text-align: center;
+    margin-left: 10px;
+  }
+}
