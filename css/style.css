@@ -136,6 +136,16 @@ header .text-desc a:hover{
   /* opacity: .8; */
 }
 
+header .container .row .text-desc a:active{
+  background-color: transparent;
+  border-color: white;
+}
+
+ header .container .row .text-desc a:visited{
+   background-color: transparent;
+   border-color: white;
+ }
+
 header .img-desc{
   text-align: center;
 }
