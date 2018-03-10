@@ -137,13 +137,13 @@ header .text-desc a:hover{
 }
 
 header .container .row .text-desc a:active{
-  background-color: transparent;
-  border-color: white;
+  background-color: transparent !important;
+  border-color: white !important;
 }
 
  header .container .row .text-desc a:visited{
-   background-color: transparent;
-   border-color: white;
+   background-color: transparent !important;
+   border-color: white !important;
  }
 
 header .img-desc{
